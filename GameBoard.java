@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * Class for Tic Tac Toe gameboard
  * 
- * @author Put Name Here
+ * @Hanna Park
  */
 public class GameBoard {
 	/**
@@ -100,18 +100,6 @@ public class GameBoard {
 		return false;
 	}
 
-	/*
-	 * public int learningAI(ArrayList<ArrayList<Integer>> record) { int max = -26;
-	 * int maxIndex = -1; for (int i = 0; i < record.size(); i++) { if
-	 * (record.get(i).get(record.get(i).size() - 1) > max) { max =
-	 * record.get(1).get(record.get(1).size() - 1); maxIndex = i; } }
-	 * 
-	 * if (maxIndex == -1) { return (int) (Math.random() * 9) + 1;
-	 * 
-	 * } else { for (int i = 0; i < record.get(maxIndex).size(); i = i + 2) { if
-	 * (!board[record.get(maxIndex).get(i)].owned()) { return
-	 * record.get(maxIndex).get(i); } } } return (int) (Math.random() * 9) + 1; }
-	 */
 
 	public int learningAI(int[][] win, int[][] block, int[] ai, int[] human) {
 		// compare ai moves done with winning combinations
