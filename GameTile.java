@@ -3,7 +3,7 @@ package ticTacToe;
 /**
  * Class for Tic-Tac-Toe tile
  * 
- * @author Put name here
+ * @Hanna Park
  */
 
 public class GameTile {
