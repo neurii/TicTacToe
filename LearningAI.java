@@ -3,9 +3,6 @@
 //Date: Oct 21, 2022
 package ticTacToe;
 
-/**This main program will create a GameBoard object and allow a round of TicTacToe to be played
-	*@author Mr. Aldworth
-	*/
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
